@@ -16,7 +16,9 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! My name is Qi Zhang(张奇), I am currently a fourth year undergraduate student in USTC, majored in informational and computational science. For the most of the time, I am interested in CG, CV, 3dVision.
+Hi! My name is Qi Zhang(张奇), I am currently a fourth year undergraduate student in USTC, majored in informational and computational science. For the most of the time, I am interested in CG, CV, 3D Vision.
+
+**Currently I am actively looking for internships!**
 
 
 
