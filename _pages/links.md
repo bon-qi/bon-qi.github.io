@@ -3,6 +3,7 @@ layout: page
 permalink: /links/
 title: Links of friends.
 description: Some links from friends!.
+nav_order:5 
 ---
 You can find links of some of my close friends here!
 

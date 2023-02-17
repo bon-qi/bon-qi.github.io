@@ -4,7 +4,6 @@ permalink: /teaching/
 title: Teaching
 description: The course Qi served as TA in fall 2022 
 nav: true
-nav_order: 5
 ---
 
 # Differential Geometry fall 2022
