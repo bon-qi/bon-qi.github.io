@@ -2,25 +2,27 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Qi Zhang # the website title (if blank, full name will be used instead)
 first_name: Qi 
-middle_name: W.
+middle_name: 
 last_name: Zhang
 email: qi-001@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+          the official website of Qi.
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: #>
   #Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: ustc, graphics, mathematics, vision, machine-learning 
+  #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bon-qi.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -33,7 +35,7 @@ highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-them
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: github_dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -41,7 +43,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -68,8 +70,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: bon-qi # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+gitlab_username: bon-qi # your GitLab user name
+twitter_username: VermilMe # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -94,6 +96,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
+    If you have any question, feel free to contact with me.
 #  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
@@ -112,15 +115,16 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: qi-blog  # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Explore Hacking! 
+blog_nav_order: 5
+blog_description: Began the exploration! 
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Comments
-disqus_shortname: qi-web # put your disqus shortname
+disqus_shortname: Qi Zhang # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -138,14 +142,14 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: f=true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 3 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -230,8 +234,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhang]
+  first_name: [Qi]
 
   style: apa
   locale: en

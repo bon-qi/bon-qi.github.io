@@ -1,15 +1,12 @@
 ---
 layout: page
-title: else
+title: teaching
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
-    # - title: Resume
-      # - premalink: [](cv.pdf)
-    - title: divider
-    - title: Links
-      permalink: /links/
+    - title: 2022 Fall
+      permalink: /teaching_22f/
+    #- title: Links
+    #  permalink: /links/
 ---
