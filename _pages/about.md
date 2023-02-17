@@ -20,9 +20,9 @@ social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-Hi! My name is Qi Zhang(张奇), I am currently a fourth year undergraduate student in USTC, majored in informational and computational science. For the most of the time, I am nerd in CG, CV, 3D Vision.
+Hi! My name is Qi Zhang, I am currently a fourth year undergraduate student in USTC, majored in informational and computational science. For the most of the time, I am nerd in CG, CV, 3D Vision.
 
-In my free time, I am a super fan of opensource culture, I experienced in archlinux and nixos, using neovim with lots of plugins. Also I am a super fan of heavy music, 
+In my free time, I am a super fan of opensource culture, experienced in archlinux and nixos, using neovim with lots of plugins, a hacking space cowboy. I am also a super fan of heavy music, 
 short marathon.
 
 **Always actively looking for internships!** 
