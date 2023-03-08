@@ -44,11 +44,22 @@
               </p>
 
 
+            </td>
 
-            </td>
+            <!--set up a random avatar-->
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/nan.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/qizhang.jpg" class="hoverZoomLink"></a>
+                <script type="text/javascript">
+                  var imgs = [];
+                  imgs[0] = "images/qizhang_yinhua.jpg"
+                  //imgs[1] = "images/qizhang_brithday.png";
+                  var randomIntN = Math.round( Math.random() * 31415 );
+                  var randomIndex = randomIntN % imgs.length; // gen a random int
+                  document.write(`<a href="images/${imgs[randomIndex]}_${randomIndex}_nan.png">
+                                    <img style="width:100%;max-width:100%" alt="profile photo" src="${imgs[randomIndex]}" class="hoverZoomLink">
+                                  </a> `);
+                </script>
             </td>
+
           </tr>
         </tbody></table>
 
